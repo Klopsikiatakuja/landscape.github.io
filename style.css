@@ -49,6 +49,8 @@ max-width: 1000px;
    background-color: rgb(39, 62, 54);
    padding-left: 500px;
    padding-top: 20px;
+   border:1px rgb(27, 52, 36) solid;
+   border-radius: 30px;
    
 }
 .nav .list li{
@@ -59,6 +61,7 @@ max-width: 1000px;
     border-radius: 30px;
     background-color: rgb(64, 120, 84);
     cursor: pointer;
+    font-size: 12px;
    
 }
 .nav .list li a{
@@ -171,4 +174,58 @@ top:-300px;
 left:550px;
 text-align: right;
 
+}
+
+@media(max-width:991px){
+.banner{
+    
+}
+.banner header{
+    padding: 20px 50px;
+}
+.banner .content h2{
+    font-size:36px;
+    padding-right: 50px;
+}
+.banner .content p{
+    font-size:16px;
+}
+.navbar .nav .list{
+   position:relative;
+   right:370px;
+}
+.navbar{
+    height:250px;
+
+}
+.navbar .nav .list li{
+    font-size: 8px;
+    padding:5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.about{
+    margin-top:300px;
+}
+.contentBx{
+    margin-top: 500px;
+    margin-left:0px;
+    background-position:center;
+    
+}
+.contentBx{
+    width: 400px;
+    height:500px;
+    clip-path: none;
+   
+   
+}
+.about .contentBx .heading {
+    font-size: 10px;
+}
+.contentBx .text{
+    font-size: 10px;
+    text-align: center;
 }
