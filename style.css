@@ -96,8 +96,8 @@ max-width: 1000px;
 .imgBx{
     background: url('./gallery/imgBx.jpg');
     width:100%;
-    height:121%;
-    margin-top:-881px;
+    height:100%;
+    margin-top:-821px;
    background-size: cover;
    background-position: center;
    display:flex;
