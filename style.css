@@ -113,7 +113,7 @@ max-width: 1000px;
     background-color: rgb(46, 67, 52);
     padding:100px;
     text-align:center;
-    margin-top: 50px;
+    margin-top: -150px;
     
 }
 .services .heading {
@@ -192,7 +192,7 @@ text-align: right;
 }
 .navbar .nav .list{
    position:relative;
-   right:500px;
+   right:450px;
  display: inline-flex;
  align-items: center;
    
@@ -218,7 +218,7 @@ text-align: right;
 }
 .about .contentBx{
     position:absolute;
-    top:850px;
+    top:900px;
     left:25px;
     width: 90%;
     height:520px;
@@ -240,4 +240,23 @@ text-align: right;
     margin-top:5px;
     justify-content:center;
 
+}
+.services .container{
+    margin-left: -70px;
+    display:inline;
+    
+}
+.services .container .serviceBx{
+   
+    margin-bottom: 20px;
+}
+.idea{
+    clip-path: none;
+    
+}
+.idea .heading{
+   position:relative;
+   bottom:20px;
+   left:-10px;
+   text-align: center;
 }
