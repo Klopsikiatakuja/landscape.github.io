@@ -215,13 +215,13 @@ text-align: right;
     
 }
 .about{
-    margin-top:700px;
-    min-height: 150%;
+    margin-top:835px;
+    height: 100%;
     align-items: center;
 }
 .about .contentBx{
     position:absolute;
-    top:930px;
+    top:950px;
     left:25px;
     width: 90%;
     height:510px;
