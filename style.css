@@ -221,7 +221,7 @@ text-align: right;
 }
 .about .contentBx{
     position:absolute;
-    top:910px;
+    top:930px;
     left:25px;
     width: 90%;
     height:510px;
@@ -256,7 +256,7 @@ text-align: right;
 .services .container .serviceBx{
    
     margin-bottom: 20px;
-    align-items: center;
+   
 }
 .services .heading{
     text-align: left;
@@ -286,10 +286,11 @@ text-align: right;
   text-align: right;
 }
 
-.container .serviceBx{
-align-items: center;
-}
+
 .services{
     overflow:scroll;
+}
+.serviceBx{
+    margin-left: -80px;
 }
 }
