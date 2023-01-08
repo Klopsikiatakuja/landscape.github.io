@@ -217,6 +217,7 @@ text-align: right;
 .about{
     margin-top:700px;
     min-height: 150%;
+    align-items: center;
 }
 .about .contentBx{
     position:absolute;
@@ -250,35 +251,45 @@ text-align: right;
     margin-left: -80px;
     display:inline;
     
+    
 }
 .services .container .serviceBx{
    
     margin-bottom: 20px;
+    align-items: center;
 }
 .services .heading{
     text-align: left;
-    margin-left:-70px;
+    align-items: center;
 }
 .services p{
-    margin-left: -70px;
+   
     text-align: left;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
 }
 .idea{
     clip-path: none;
+    align-items: center;
     
 }
 .idea .heading{
    position:relative;
    bottom:20px;
-   left:-10px;
-   text-align: center;
+   left:-8px;
+   
 }
 .idea .heading{
     font-size: 10px;
   padding: 10px;
+  text-align: right;
 }
 
 .container .serviceBx{
-margin-left: -100px;
+align-items: center;
+}
+.services{
+    overflow:scroll;
 }
 }
