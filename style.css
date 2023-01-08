@@ -202,6 +202,7 @@ text-align: right;
 .navbar{
     height:80px;
     margin-top: 10px;
+    overflow: scroll;
     
 }
 .navbar .nav .list li{
@@ -215,14 +216,16 @@ text-align: right;
 }
 .about{
     margin-top:700px;
+    min-height: 150%;
 }
 .about .contentBx{
     position:absolute;
-    top:900px;
+    top:910px;
     left:25px;
     width: 90%;
-    height:520px;
+    height:510px;
     clip-path: none;
+    overflow: scroll;
    
    
    
@@ -230,25 +233,35 @@ text-align: right;
 }
 .about .contentBx .heading {
     font-size: 10px;
-    margin-top: -70px;
+    margin-top: -80px;
     text-align: center;
 }
 .about .contentBx .text{
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     padding:0px;
-    margin-top:5px;
-    justify-content:center;
+    margin:0px;
+    
+    
+    
 
 }
 .services .container{
-    margin-left: -70px;
+    margin-left: -80px;
     display:inline;
     
 }
 .services .container .serviceBx{
    
     margin-bottom: 20px;
+}
+.services .heading{
+    text-align: left;
+    margin-left:-70px;
+}
+.services p{
+    margin-left: -70px;
+    text-align: left;
 }
 .idea{
     clip-path: none;
@@ -259,4 +272,13 @@ text-align: right;
    bottom:20px;
    left:-10px;
    text-align: center;
+}
+.idea .heading{
+    font-size: 10px;
+  padding: 10px;
+}
+
+.container .serviceBx{
+margin-left: -100px;
+}
 }
